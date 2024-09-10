@@ -10,16 +10,10 @@ import logoGofree from '@/images/logos/logoGofree.svg'
 import logoTicTac from '@/images/logos/logoTicTac.jpg'
 import logoFundme from '@/images/logos/fundme-logo.png'
 import logoGofreeBiz from '@/images/logos/logoGofreeBiz.png'
+import logoKlas from '@/images/logos/logoKlas.png'
+import logoNeura from '@/images/logos/logoNeura.png'
 
 export const projects = [
-  {
-    name: 'LivreNoir - 384k subs on YouTube',
-    description:
-      'News platform: Media of interviews-portraits. An incisive look at the themes of society breaking with the culture of occupational zapping & censorship.',
-    link: { href: 'https://livrenoir.fr', label: 'livrenoir.fr' },
-    logo: logoNoir,
-  },
-
   {
     name: 'GoFree - #1 Social Neo Bank',
     description:
@@ -40,6 +34,32 @@ export const projects = [
       label: 'joingofree.com',
     },
     logo: logoGofreeBiz,
+  },
+  {
+    name: 'Klas - with over 100k users',
+    description: 'Create & sell your ebooks, courses, and live classes',
+    link: {
+      href: 'https://tryklas.com',
+      label: 'tryklas.com',
+    },
+    logo: logoKlas,
+  },
+  {
+    name: 'NeuraTalent - AI copilot for recuriters',
+    description:
+      'Transform your hiring process with our AI-driven interviews. Cut down on time and costs while finding top talent faster.',
+    link: {
+      href: 'https://getneuratalent.com',
+      label: 'getneuratalent.com',
+    },
+    logo: logoNeura,
+  },
+  {
+    name: 'LivreNoir - 384k subs on YouTube',
+    description:
+      'News platform: Media of interviews-portraits. An incisive look at the themes of society breaking with the culture of occupational zapping & censorship.',
+    link: { href: 'https://livrenoir.fr', label: 'livrenoir.fr' },
+    logo: logoNoir,
   },
   {
     name: 'Filevert',
