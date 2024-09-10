@@ -24,7 +24,8 @@ import logoZayxon from '@/images/logos/logoZayxon.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
-import Projects, { LinkIcon, projects } from './projects'
+import logoFilevert from '@/images/logos/logoFilvert.png'
+import { LinkIcon, projects } from './projects'
 
 function MailIcon(props) {
   return (
@@ -150,23 +151,23 @@ function Resume() {
       },
     },
     {
+      company: 'Filevert',
+      title: 'Software Engineer, Fullstack',
+      logo: logoFilevert,
+      start: '2022',
+      end: 'contract',
+    },
+    {
       company: 'Livre Noir',
-      title: 'Software Engineer, Contract',
+      title: 'Software Engineer, Fullstack',
       logo: logoNoir,
-      start: '2021',
+      start: '2020',
       end: '2022',
     },
     {
       company: 'Skydoo',
-      title: 'Mobile Engineer, Contract',
+      title: 'Mobile Engineer',
       logo: logoSkydoo,
-      start: '2021',
-      end: '2021',
-    },
-    {
-      company: 'Zayxon',
-      title: 'Founding Engineer',
-      logo: logoZayxon,
       start: '2019',
       end: '2020',
     },

@@ -24,17 +24,6 @@ export const projects = [
     },
     logo: logoGofree,
   },
-
-  {
-    name: 'GoFree Business - #1 Banking for Startups',
-    description:
-      'Social Banking for Startups and SME businesses accross the globe.',
-    link: {
-      href: 'https://joingofree.com',
-      label: 'joingofree.com',
-    },
-    logo: logoGofreeBiz,
-  },
   {
     name: 'Klas - with over 100k users',
     description: 'Create & sell your ebooks, courses, and live classes',
@@ -53,6 +42,16 @@ export const projects = [
       label: 'getneuratalent.com',
     },
     logo: logoNeura,
+  },
+  {
+    name: 'GoFree Business - #1 Banking for Startups',
+    description:
+      'Social Banking for Startups and SME businesses accross the globe.',
+    link: {
+      href: 'https://joingofree.com',
+      label: 'joingofree.com',
+    },
+    logo: logoGofreeBiz,
   },
   {
     name: 'LivreNoir - 384k subs on YouTube',
