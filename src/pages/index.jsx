@@ -144,7 +144,7 @@ function Resume() {
       company: 'GoFree',
       title: 'Head of Engineering',
       logo: logoGofree,
-      start: '2022',
+      start: 'Jul 2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -152,24 +152,24 @@ function Resume() {
     },
     {
       company: 'Filevert',
-      title: 'Software Engineer, Fullstack',
+      title: 'Sr. Software Engineer, contract',
       logo: logoFilevert,
-      start: '2022',
-      end: 'contract',
+      start: 'Apr 2022',
+      end: 'Jun 2022',
     },
     {
-      company: 'Livre Noir',
+      company: 'Frontieresmedia',
       title: 'Software Engineer, Fullstack',
       logo: logoNoir,
-      start: '2020',
-      end: '2022',
+      start: 'Feb 2020',
+      end: 'Mar 2022',
     },
     {
       company: 'Skydoo',
-      title: 'Mobile Engineer',
+      title: 'Mobile Engineer, contract',
       logo: logoSkydoo,
-      start: '2019',
-      end: '2020',
+      start: 'May 2019',
+      end: 'Nov 2019',
     },
   ]
 
