@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoNoir from '@/images/logos/logoNoir.jpg'
+import logoNoir from '@/images/logos/logoNoir.jpeg'
 import logoSwiperyt from '@/images/logos/logoSwiperyt.png'
 import logoFilevert from '@/images/logos/logoFilvert.png'
 import logoGofree from '@/images/logos/logoGofree.svg'

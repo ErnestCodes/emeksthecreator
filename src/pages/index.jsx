@@ -17,10 +17,9 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.png'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoNoir from '@/images/logos/logoNoir.jpg'
+import logoNoir from '@/images/logos/logoNoir.jpeg'
 import logoSkydoo from '@/images/logos/logoSkydoo.jpg'
 import logoGofree from '@/images/logos/logoGofree.svg'
-import logoZayxon from '@/images/logos/logoZayxon.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -158,7 +157,7 @@ function Resume() {
       end: 'Jun 2022',
     },
     {
-      company: 'Frontieresmedia',
+      company: 'Frontieresmedia (formerly Livre Noir)',
       title: 'Software Engineer, Fullstack',
       logo: logoNoir,
       start: 'Feb 2020',
