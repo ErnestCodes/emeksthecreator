@@ -54,10 +54,10 @@ export const projects = [
     logo: logoGofreeBiz,
   },
   {
-    name: 'LivreNoir - 384k subs on YouTube',
+    name: 'Frontieresmedia - 384k subs on YouTube',
     description:
       'News platform: Media of interviews-portraits. An incisive look at the themes of society breaking with the culture of occupational zapping & censorship.',
-    link: { href: 'https://livrenoir.fr', label: 'livrenoir.fr' },
+    link: { href: 'https://frontieresmedia.fr', label: 'frontieresmedia.fr' },
     logo: logoNoir,
   },
   {
