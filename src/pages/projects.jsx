@@ -12,10 +12,11 @@ import logoFundme from '@/images/logos/fundme-logo.png'
 import logoGofreeBiz from '@/images/logos/logoGofreeBiz.png'
 import logoKlas from '@/images/logos/logoKlas.png'
 import logoNeura from '@/images/logos/logoNeura.png'
+import logoGoPremium from '@/images/logos/logoGoPremium.png'
 
 export const projects = [
   {
-    name: 'GoFree - #1 Social Neo Bank',
+    name: 'GoFree - #1 Banking for Africans',
     description:
       'Social Neobank for Digital Natives - Chat, Payments, Virtual Cards & more for instant borderless payments in real-time.',
     link: {
@@ -42,6 +43,16 @@ export const projects = [
       label: 'getneuratalent.com',
     },
     logo: logoNeura,
+  },
+  {
+    name: 'GoPremium - International Banking',
+    description:
+      'Global Multi-Currency account for Africa and Emerging Markets',
+    link: {
+      href: 'https://gopremium.africa',
+      label: 'gopremium.africa',
+    },
+    logo: logoGoPremium,
   },
   {
     name: 'GoFree Business - #1 Banking for Startups',
