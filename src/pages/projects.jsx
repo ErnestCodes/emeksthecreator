@@ -75,6 +75,15 @@ export const projects = [
     logo: logoNeura,
   },
   {
+    name: 'Swiperyt',
+    description: 'The Tinder for Africa with over 500+ downloads',
+    link: {
+      href: 'https://play.google.com/store/apps/details?id=com.swiperyt.app',
+      label: 'swiperyt.app',
+    },
+    logo: logoSwiperyt,
+  },
+  {
     name: 'Frontieresmedia - 384k subs on YouTube',
     description:
       'News platform: Media of interviews-portraits. An incisive look at the themes of society breaking with the culture of occupational zapping & censorship.',
@@ -94,16 +103,7 @@ export const projects = [
       'This is the GoFundMe for Africa. It helps users recieve donations and perform transactions seamlessly.',
     link: { href: 'https://help-fd14d.web.app/', label: 'fundme.com.ng' },
     logo: logoFundme,
-  },
-  {
-    name: 'Swiperyt',
-    description: 'The Tinder for Africa with over 500+ downloads',
-    link: {
-      href: 'https://play.google.com/store/apps/details?id=com.swiperyt.app',
-      label: 'swiperyt.app',
-    },
-    logo: logoSwiperyt,
-  },
+  }, 
   {
     name: 'TicTac Game',
     description:
