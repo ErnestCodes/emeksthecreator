@@ -64,6 +64,16 @@ export const projects = [
     },
     logo: logoGofreeBiz,
   },
+ {
+    name: 'Neura Finance - Send USDC across chains',
+    description:
+      'Transfer USDC across multiple blockchains natively with Circle’s Cross-Chain Transfer Protocol',
+    link: {
+      href: 'https://finance.getneuratalent.com',
+      label: 'finance.getneuratalent.com',
+    },
+    logo: logoNeura,
+  },
   {
     name: 'Frontieresmedia - 384k subs on YouTube',
     description:
