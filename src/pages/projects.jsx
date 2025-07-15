@@ -15,6 +15,16 @@ import logoNeura from '@/images/logos/logoNeura.png'
 import logoGoPremium from '@/images/logos/logoGoPremium.png'
 
 export const projects = [
+ {
+    name: 'Neura Finance - Send USDC across chains',
+    description:
+      'Transfer USDC across multiple blockchains natively with Circle’s Cross-Chain Transfer Protocol',
+    link: {
+      href: 'https://finance.getneuratalent.com',
+      label: 'finance.getneuratalent.com',
+    },
+    logo: logoNeura,
+  },
   {
     name: 'GoFree - #1 Banking for Africans',
     description:
@@ -64,16 +74,7 @@ export const projects = [
     },
     logo: logoGofreeBiz,
   },
- {
-    name: 'Neura Finance - Send USDC across chains',
-    description:
-      'Transfer USDC across multiple blockchains natively with Circle’s Cross-Chain Transfer Protocol',
-    link: {
-      href: 'https://finance.getneuratalent.com',
-      label: 'finance.getneuratalent.com',
-    },
-    logo: logoNeura,
-  },
+
   {
     name: 'Swiperyt',
     description: 'The Tinder for Africa with over 500+ downloads',
