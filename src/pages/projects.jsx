@@ -3,19 +3,39 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoNoir from '@/images/logos/logoNoir.jpeg'
 import logoSwiperyt from '@/images/logos/logoSwiperyt.png'
 import logoFilevert from '@/images/logos/logoFilvert.png'
-import logoGofree from '@/images/logos/logoGofree.svg'
 import logoTicTac from '@/images/logos/logoTicTac.jpg'
 import logoFundme from '@/images/logos/fundme-logo.png'
-import logoGofreeBiz from '@/images/logos/logoGofreeBiz.png'
-import logoKlas from '@/images/logos/logoKlas.png'
 import logoNeura from '@/images/logos/logoNeura.png'
-import logoGoPremium from '@/images/logos/logoGoPremium.png'
+import logoRants from '@/images/logos/logoRants.ico'
+import logoReedeck from '@/images/logos/logoReedeck.png'
+import logoGitRaven from '@/images/logos/logoGitRaven.png'
+import logoGuestGuidePDF from '@/images/logos/logoGuestGuide.png'
+import logoQauntro from '@/images/logos/logoQuantro.png'
 
 export const projects = [
- {
+  {
+    name: 'Reedeck - Unified Customer Support with AI',
+    description:
+      'Manage and respond to all your customer messages from Slack, Teams, email, and more all-in-one omni-channel platform.',
+    link: {
+      href: 'https://reedeck.com',
+      label: 'reedeck.com',
+    },
+    logo: logoReedeck,
+  },
+  { 
+    name: 'Rants - Anonymous voice threads. Start a topic, let the world speak',
+    description:
+      'Speack your truth without revealing your identity. Join anonymous voice threads on topics that matter to you and hear diverse perspectives from around the world.',
+    link: {
+      href: 'https://rants.link',
+      label: 'rants.link',
+    },
+    logo: logoRants,
+  },
+  { 
     name: 'Neura Finance - Send USDC across chains',
     description:
       'Transfer USDC across multiple blockchains natively with Circle’s Cross-Chain Transfer Protocol',
@@ -26,23 +46,14 @@ export const projects = [
     logo: logoNeura,
   },
   {
-    name: 'GoFree - #1 Banking for Africans',
+    name: 'GitRaven - AI-Powered Code Review Assistant',
     description:
-      'Social Neobank for Digital Natives - Chat, Payments, Virtual Cards & more for instant borderless payments in real-time.',
+      'With over 500 weekly downloads - AI-powered code review assistant for developers.',
     link: {
-      href: 'https://download.joingofree.com',
-      label: 'download.joingofree.com',
+      href: 'https://www.npmjs.com/package/gitraven',
+      label: 'npmjs.com/package/gitraven',
     },
-    logo: logoGofree,
-  },
-  {
-    name: 'Klas - with over 100k users',
-    description: 'Create & sell your ebooks, courses, and live classes',
-    link: {
-      href: 'https://tryklas.com',
-      label: 'tryklas.com',
-    },
-    logo: logoKlas,
+    logo: logoGitRaven,
   },
   {
     name: 'NeuraTalent - AI copilot for recuriters',
@@ -55,27 +66,24 @@ export const projects = [
     logo: logoNeura,
   },
   {
-    name: 'GoPremium - International Banking',
+    name: 'GuestGuidePDF - Create Professional Guest Guidebooks',
     description:
-      'Global Multi-Currency account for Africa and Emerging Markets',
+      'Create professional guest guidebooks in three simple steps. No design skills required.',
     link: {
-      href: 'https://gopremium.africa',
-      label: 'gopremium.africa',
+      href: 'https://www.guestguidepdf.com',
+      label: 'guestguidepdf.com',
     },
-    logo: logoGoPremium,
+    logo: logoGuestGuidePDF,
   },
   {
-    name: 'GoFree Business - #1 Banking for Startups',
+    name: 'Qauntro - Chat to manage your business',
     description:
-      'Social Banking for Startups and SME businesses accross the globe.',
-    link: {
-      href: 'https://joingofree.com',
-      label: 'joingofree.com',
-    },
-    logo: logoGofreeBiz,
+      'Stop wrestling with complex dashboards. Just chat with Quantro to create invoices, log expenses, and analyze your business health.',
+    link: { href: 'https://tryquantro.com', label: 'tryquantro.com' },
+    logo: logoQauntro,
   },
+  {
 
-  {
     name: 'Swiperyt',
     description: 'The Tinder for Africa with over 500+ downloads',
     link: {
@@ -84,13 +92,7 @@ export const projects = [
     },
     logo: logoSwiperyt,
   },
-  {
-    name: 'Frontieresmedia - 384k subs on YouTube',
-    description:
-      'News platform: Media of interviews-portraits. An incisive look at the themes of society breaking with the culture of occupational zapping & censorship.',
-    link: { href: 'https://frontieresmedia.fr', label: 'frontieresmedia.fr' },
-    logo: logoNoir,
-  },
+  
   {
     name: 'Filevert',
     description:

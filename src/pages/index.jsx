@@ -141,7 +141,7 @@ function Resume() {
   let resume = [
     {
       company: 'GoFree',
-      title: 'Head of Engineering',
+      title: 'Sr. Software Engineer, Fullstack',
       logo: logoGofree,
       start: 'Jul 2022',
       end: {
@@ -261,7 +261,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Nnaemeka Onukwube - Software Engineer, founder, and Entrepreneur
+          Nnaemeka Onukwube - Software Engineer, and Entrepreneur
         </title>
         <meta
           name="description"
