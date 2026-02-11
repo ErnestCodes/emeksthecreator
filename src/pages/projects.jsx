@@ -13,6 +13,7 @@ import logoReedeck from '@/images/logos/logoReedeck.png'
 import logoGitRaven from '@/images/logos/logoGitRaven.png'
 import logoGuestGuidePDF from '@/images/logos/logoGuestGuide.png'
 import logoQauntro from '@/images/logos/logoQuantro.png'
+import logoOpenred from '@/images/logos/logoOpenred.png'
 
 export const projects = [
   {
@@ -34,6 +35,16 @@ export const projects = [
       label: 'rants.link',
     },
     logo: logoRants,
+  },
+  { 
+    name: 'OpenRed - PII Redaction for LLMs',
+    description:
+      'OpenRed is a tool that helps you redact PII (Personally Identifiable Information) from your LLM prompts and outputs.',
+    link: {
+      href: 'https://www.npmjs.com/package/openred',
+      label: 'npm/package/openred',
+    },
+    logo: logoOpenred,
   },
   { 
     name: 'Neura Finance - Send USDC across chains',
